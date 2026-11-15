@@ -4,10 +4,9 @@
   "type": "project",
   "license": "MIT",
   "repositories": [{ "type": "vcs", "url": "https://github.com/aymudo/aymudo-php-sdk" }],
-  "require": { "php": "^8.2", "aymudo/aymudo-php-sdk": "dev-main" },
+  "require": { "php": "^8.2", "aymudo/aymudo-php-sdk": "^0.1" },
   "autoload": { "psr-4": { "AymudoStarter\\": "src/" } },
   "scripts": { "serve": "php -S 127.0.0.1:8080 -t public", "test": "php tests/smoke.php" },
   "config": { "sort-packages": true, "allow-plugins": {} },
-  "minimum-stability": "dev",
   "prefer-stable": true
 }
